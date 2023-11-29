@@ -19,10 +19,37 @@ Este software, creado en Python utilizando el modelo MVC, sirve para gestionar y
 Esta herramienta nació como un proyecto estudiantil con la misión primordial de recolectar y evaluar datos de un gran número de hogares y ciudadanos del estado.
 
 ### Login
-![image](https://github.com/ErickRz21/CensoInegi_ER/assets/65317669/2f669155-20ca-4c24-8cff-669a80e7fd0e)
+<img width="1038" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/d976d8bb-e55b-488c-b66f-ac364c6829d9">
+
+### Menú Principal
+<img width="1470" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/b115b981-65f5-4662-93ca-07c46ecd839d">
+
+### Registro viviendas
+<img width="1470" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/a535708e-0d6e-4eaf-b8d9-862692cfae51">
+
+## Registro Habitantes
+<img width="1464" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/dfc2daec-6bd2-4723-969c-4ed77f5e8409">
 
 ### Dashboard
-![image](https://github.com/ErickRz21/CensoInegi_ER/assets/65317669/5a33ac2a-0b66-49f0-9405-dd1119047dca)
+## Reporte de viviendas
+<img width="1169" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/1ec4917f-eff4-479c-a0ef-6dc0d4e2d307">
+
+## Cantidad de personas por tipo de vivienda
+<img width="1095" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/3b58687d-a291-4013-ae74-1af7122f158e">
+
+## Cantidad de personas por municipio
+![image](https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/9d5ca994-2791-4f69-bfc5-fbad3e458202)
+
+## Reporte de habitantes
+<img width="1136" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/5b7ba6b7-23e6-4c27-ab69-ab81b1ed581e">
+
+## Cátalogo de municipios
+<img width="993" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/23835464-bf27-4e8a-a3bc-4b83cafec70c">
+
+
+
+
+
 
 
 (Diseño afectado debido a funcionabilidad)
