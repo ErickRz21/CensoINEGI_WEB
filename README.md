@@ -2,7 +2,7 @@
 
 # Aplicación para el Censo Poblacional
 
-Este software, creado en Python utilizando el modelo MVC, sirve para gestionar y presentar información recabada de un censo poblacional estatal. Su diseño se centra en ofrecer un sistema sólido y sencillo de operar para documentar y estudiar detalles acerca de residencias e individuos.
+Este software, creado en node.js utilizando el modelo MVC, sirve para gestionar y presentar información recabada de un censo poblacional estatal. Su diseño se centra en ofrecer un sistema sólido y sencillo de operar para documentar y estudiar detalles acerca de residencias e individuos.
 
 ## Aspectos destacados
 
@@ -18,65 +18,49 @@ Este software, creado en Python utilizando el modelo MVC, sirve para gestionar y
 
 Esta herramienta nació como un proyecto estudiantil con la misión primordial de recolectar y evaluar datos de un gran número de hogares y ciudadanos del estado.
 
-### Login
+## Login
 <img width="1038" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/d976d8bb-e55b-488c-b66f-ac364c6829d9">
 
-### Menú Principal
+## Menú Principal
 <img width="1470" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/b115b981-65f5-4662-93ca-07c46ecd839d">
 
 ### Registro viviendas
 <img width="1470" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/a535708e-0d6e-4eaf-b8d9-862692cfae51">
 
-## Registro Habitantes
+### Registro Habitantes
 <img width="1464" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/dfc2daec-6bd2-4723-969c-4ed77f5e8409">
 
-### Dashboard
-## Reporte de viviendas
+## Dashboard
+
+### Reporte de viviendas
 <img width="1169" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/1ec4917f-eff4-479c-a0ef-6dc0d4e2d307">
 
-## Cantidad de personas por tipo de vivienda
+### Cantidad de personas por tipo de vivienda
 <img width="1095" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/3b58687d-a291-4013-ae74-1af7122f158e">
 
-## Cantidad de personas por municipio
+### Cantidad de personas por municipio
 ![image](https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/9d5ca994-2791-4f69-bfc5-fbad3e458202)
 
-## Reporte de habitantes
+### Reporte de habitantes
 <img width="1136" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/5b7ba6b7-23e6-4c27-ab69-ab81b1ed581e">
 
-## Cátalogo de municipios
+### Cátalogo de municipios
 <img width="993" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/23835464-bf27-4e8a-a3bc-4b83cafec70c">
 
-
-
-
-
-
-
-(Diseño afectado debido a funcionabilidad)
-### Registro Viviendas
-![image](https://github.com/ErickRz21/CensoInegi_ER/assets/65317669/8aceac22-893c-4af7-a028-fb935d5f988b)
-
-### Registro Habitantes
-![image](https://github.com/ErickRz21/CensoInegi_ER/assets/65317669/abc3e9dd-f8b3-4b53-b0bb-a44c4676e8e2)
-
-### Diagrama de clases
-![image](https://github.com/ErickRz21/CensoInegi_ER/assets/65317669/d6016a86-ed4b-424d-95b0-19969846e5ab)
-
-### Modelo Base de datos
-![image](https://github.com/ErickRz21/CensoInegi_ER/assets/65317669/d15a3435-6a6a-4105-90a0-fb0110584703)
-
+## Modelo Base de datos
+<img width="1136" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/fe2edd75-e388-4dd4-8aa0-0bf609f67cfa">
 
 
 
 ## Requerimientos Técnicos
 
-• Sistema Operativo: Windows
+• Sistema Operativo: Windows, MacOS
 
-• Framework: Django
+• Framework: Express.js
 
 • Base de datos: MariaDB
 
-• Funcionabilidad: Main = controlador.py
+• Funcionabilidad: Ingresar "node app.js" en terminal.
 
 
 
