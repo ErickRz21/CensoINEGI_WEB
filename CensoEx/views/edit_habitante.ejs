@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <title>Edit Habitantes| INEGI</title>
+</head>
+
+<body>
+    <i class="fa-solid fa-circle-chevron-left" onclick="goBack()" id="back"></i>
+    <form id="editar" action="/habitantes/update/<%= record.ID_Habitante %>" method="POST">
+        <div class="edit">
+            <h1>Menú de edición</h1>
+            <p>¿Qué cambios deseas realizar?</p>
+        </div>
+        <!-- Form fields pre-filled with the record's data -->
+        <div class="inputBox2">
+            <input type="text" name="Nombre" value="<%= record.Nombre %>" required="required">
+            <span>Nombre</span>
+            <i></i>
+        </div>
+        <div class="inputBox2">
+            <input type="number" name="Edad" value="<%= record.Edad %>" required="required">
+            <span>Edad</span>
+            <i></i>
+        </div>
+        <div class="listBox">
+            <select name="Genero" required="required">
+                <option value="Masculino" <%=record.Genero==='Masculino' ? 'selected' : '' %>>Masculino</option>
+                <option value="Femenino" <%=record.Genero==='Femenino' ? 'selected' : '' %>>Femenino</option>
+                <option value="Otro" <%=record.Genero==='Otro' ? 'selected' : '' %>>Otro</option>
+            </select>
+        </div>
+
+
+        <input type="submit" name="registrar" id="registrar" value="Editar">
+    </form>
+    <script>
+        function goBack() {
+            window.history.back();
+        }
+    </script>
+
+</body>
+
+</html>

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>Habitantes | INEGI</title>
+</head>
+
+<body>
+
+    <div class="dashboard-container">
+        <div class="sidebar">
+            <img src="/images/inegi.jpg" alt="">
+            <h1>Censo INEGI</h1>
+            <h2>Registro</h2>
+            <nav>
+                <ul>
+                    <li><a href="menu">Home</a></li>
+                    <li><a href="viviendas">Viviendas</a></li>
+                    <li><a href="habitantes">Habitantes</a></li>
+                    <li><a href='dashboard'>Dashboard</a></li>
+                    <li id="Logout"><a href='/logout'>Cerrar sesión</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="content">
+            <form id="registros" action="/habitantes" method="POST" onsubmit="return validateAndSubmitForm()">
+                <h1>Registro de Habitantes</h1>
+                <h2>Registre todos los datos en las casillas correspondientes, asegurandose que no queden casillas
+                    vacias.</h2>
+                <div class="border">
+                    <div class="inputBox2">
+                        <input type="text" name="Nombre" required="required">
+                        <span>Nombre</span>
+                        <i></i>
+                    </div>
+                    <div class="inputBox2">
+                        <input type="number" name="Edad" required="required">
+                        <span>Edad</span>
+                        <i></i>
+                    </div>
+                    <div class="listBox">
+                        <select name="Genero" required="required">
+                            <option value="" disabled selected>Género</option>
+                            <option value="Masculino">Masculino</option>
+                            <option value="Femenino">Femenino</option>
+                            <option value="Otro">Otro</option>
+                            <i></i>
+                        </select>
+                    </div>
+                </div>
+                <div id="submissionMessage" style="display: none;">Registration Complete!</div>
+                <script>
+                    // Habitantes validations
+                    function validateForm() {
+                        var nombre = document.forms['registros']['Nombre'].value
+                        var edad = document.forms['registros']['Edad'].value
+                        var genero = document.forms['registros']['Genero'].value
+
+                        if (!nombre.match(/^[a-zA-Z\s]+$/)) {
+                            alert('Por favor ingrese letras en Nombre.')
+                            return false
+                        }
+
+                        if (isNaN(edad) || edad < 0 || edad > 100) {
+                            alert('Ingrese la edad correctamente')
+                            return false
+                        }
+
+                        if (!genero.match(/^[a-zA-Z\s]+$/)) {
+                            alert('Ingrese el género correctamente.')
+                            return false
+                        }
+
+                        return true
+                        alert('Datos ingresados correctamente')
+                    }
+
+                    function validateAndSubmitForm() {
+                        if (validateForm()) {
+                            document.getElementById('submissionMessage').style.display = 'block';
+                            return true;
+                        }
+                        return false;
+                    }
+                </script>
+                <input type="submit" id="registrar" value="Registrar">
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
