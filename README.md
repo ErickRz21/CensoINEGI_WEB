@@ -91,9 +91,6 @@ Esta herramienta nació como un proyecto estudiantil con la misión primordial d
 ## Modelo Base de datos
 <img width="1136" alt="image" src="https://github.com/ErickRz21/CensoINEGI_WEB/assets/65317669/fe2edd75-e388-4dd4-8aa0-0bf609f67cfa">
 
-
-
->>>>>>> 67878ecef71862a7203b73b25da540c516ae6e4d
 ## Requerimientos Técnicos
 
 • Sistema Operativo: Windows, MacOS
@@ -103,8 +100,6 @@ Esta herramienta nació como un proyecto estudiantil con la misión primordial d
 • Base de datos: MariaDB
 
 • Funcionabilidad: Ingresar "node app.js" en terminal.
-<<<<<<< HEAD
-=======
 
 
 
